@@ -1,0 +1,196 @@
+* {
+	font-family: "bitter", monospace;
+
+}
+#nav-buttons{
+	box-sizing: border-box;
+}
+#nav-buttons > a{
+	background: dark;
+	color: #fff;
+	text-transform: uppercase;
+	transition: 0.5;
+	}
+#nav-buttons > a:hover{
+	letter-spacing: 0.15em;
+	text-shadow: 0 0 20px;
+	color: red;
+}
+
+
+#about-lorenceberganting{
+	width: 25%;
+}
+
+#introduction{
+	width: 60%;
+}
+
+#education{
+  list-style-type: none;
+  width: 60%;
+}
+
+#skills{
+ 
+  width: 80%;
+}
+
+#projects{
+	padding: 3rem; 
+	margin-bottom: 3rem;
+}
+
+#project1{
+	width: 25%; height: 30%;
+}
+
+#project2{
+	width: 25%; height: 30%;
+}
+
+#project3{
+	width: 25%; height: 30%;
+}
+
+
+
+#contact-image{
+
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#contact-header{
+left: 0%;
+right: 1.42%;
+top: 0%;
+bottom: 64.49%;
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+
+color: #765C3D;
+}
+
+#contact-text{
+
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #765C3D;
+}
+
+/* Label text */
+
+#contact form label{
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #B59066;
+
+}
+
+
+#contact form input {
+
+    background: #FFFFFF;
+    border: 1px solid #B59066;
+    border-radius: 0 !important;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #765C3D !important;
+
+
+}
+
+#contact form textarea {
+
+    background: #FFFFFF;
+    border: 1px solid #B59066 !important;
+    border-radius: 0 !important;
+
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #765C3D !important;
+}
+
+
+#form-btn {
+/* Submit button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+/* Base */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 32px;
+gap: 8px;
+
+width: 140px;
+height: 48px;
+
+background: #B59066;
+border-radius: 999px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+text-align: center;
+
+/* Button/Text/button-primary-text */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
